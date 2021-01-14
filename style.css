@@ -1,0 +1,117 @@
+.header{
+    background-color: #FFFBF0;
+    margin-bottom:100px;
+}
+
+.nav-link{
+    color: black;
+    font-size: 16px;
+}
+
+.learn-title{
+    font-family: 'Bebas Neue', cursive;
+    color: #FABE4C;
+    font-size: 80px;
+}
+
+.with-title{
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    font-size: 80px;
+}
+
+.desc{
+    font-size: 16px;
+}
+
+.section-title{
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    font-size: 48px;
+}
+
+.buy-now-button{
+    background-color: #8BA622;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+
+.card{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-title{
+    font-family:'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card img{
+    background-color: #F1F1F1;
+    padding: 10%;
+}
+
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+
+.card-footer h5{
+    color: #FABE4C;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.container{
+    margin-bottom: 100px;
+}
+
+.horizontal-card {
+    position: relative;
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px lightgray;
+    margin-bottom: 20px;
+  }
+
+  .horizontal-card img {
+    width: 100px;
+    height: 100px;
+    padding:10px;
+  }
+
+  .horizontal-card .horizontal-card-body {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .horizontal-card .horizontal-card-footer {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .half-width{
+    width: 40%;
+    float: left;
+}
+
+.half-right{
+    float: right;
+}
+
+.special-card{
+    float: left;
+}
